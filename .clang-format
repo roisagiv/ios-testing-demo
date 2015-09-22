@@ -1,0 +1,4 @@
+---
+# cd src & for %i in (*.m;*.h) do clang-format -i %i
+
+BasedOnStyle: Google
