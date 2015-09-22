@@ -1,0 +1,31 @@
+{
+    "gender":"female",
+    "name":{
+        "title":"ms",
+        "first":"lola",
+        "last":"davis"
+    },
+    "location":{
+        "street":"5954 cork street",
+        "city":"Oranmore",
+        "state":"kentucky",
+        "zip":44943
+    },
+    "email":"lola.davis@example.com",
+    "username":"tinykoala958",
+    "password":"figure",
+    "salt":"wNtbaZIt",
+    "md5":"326839bbe0b85e3d6a90b27ac3f4be5c",
+    "sha1":"36793a34d1b37caf5f9fab72543a6d7f83e44f07",
+    "sha256":"2a03857640e33d3145114910fd02cfc651315357b5e8b52214ece2a7d9f61243",
+    "registered":1183783430,
+    "dob":112221811,
+    "phone":"041-040-6715",
+    "cell":"081-830-5964",
+    "PPS":"7387037T",
+    "picture":{
+        "large":"https://randomuser.me/api/portraits/women/37.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/women/37.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/37.jpg"
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "results": [
+        {
+            "user": {
+                "gender": "female",
+                "name": {
+                    "title": "ms",
+                    "first": "lola",
+                    "last": "davis"
+                },
+                "location": {
+                    "street": "5954 cork street",
+                    "city": "Oranmore",
+                    "state": "kentucky",
+                    "zip": 44943
+                },
+                "email": "lola.davis@example.com",
+                "username": "tinykoala958",
+                "password": "figure",
+                "salt": "wNtbaZIt",
+                "md5": "326839bbe0b85e3d6a90b27ac3f4be5c",
+                "sha1": "36793a34d1b37caf5f9fab72543a6d7f83e44f07",
+                "sha256": "2a03857640e33d3145114910fd02cfc651315357b5e8b52214ece2a7d9f61243",
+                "registered": 1183783430,
+                "dob": 112221811,
+                "phone": "041-040-6715",
+                "cell": "081-830-5964",
+                "PPS": "7387037T",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/women/37.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/women/37.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/37.jpg"
+                }
+            }
+        },
+        {
+            "user": {
+                "gender": "male",
+                "name": {
+                    "title": "mr",
+                    "first": "paul",
+                    "last": "hicks"
+                },
+                "location": {
+                    "street": "7008 boghall road",
+                    "city": "Monaghan",
+                    "state": "washington",
+                    "zip": 79499
+                },
+                "email": "paul.hicks@example.com",
+                "username": "reddog224",
+                "password": "otis",
+                "salt": "gMNcrcyQ",
+                "md5": "61c67d1eb4a4e55b940aa2529f318060",
+                "sha1": "bc147f347879e449c7c49bd9957a96520618eb1c",
+                "sha256": "d685156895febce8863a643f60314d321570a8a76c38b60e472b5db80d196943",
+                "registered": 1316607528,
+                "dob": 1016159680,
+                "phone": "061-938-5144",
+                "cell": "081-091-9895",
+                "PPS": "3471150T",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/men/16.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/men/16.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/16.jpg"
+                }
+            }
+        },
+        {
+            "user": {
+                "gender": "female",
+                "name": {
+                    "title": "miss",
+                    "first": "sofia",
+                    "last": "baker"
+                },
+                "location": {
+                    "street": "5721 westmoreland street",
+                    "city": "Roscrea",
+                    "state": "tennessee",
+                    "zip": 76748
+                },
+                "email": "sofia.baker@example.com",
+                "username": "purplefish216",
+                "password": "sheridan",
+                "salt": "9ApDvuUf",
+                "md5": "c9c2280c5c8c7ad0180a7ad5cfb54670",
+                "sha1": "3d6b4db31bac26ec1b7c43ab9cb8475761d78e3c",
+                "sha256": "679e209e53739a7103fb20d2909e4995064112517aa64e17803f26c48d3186b5",
+                "registered": 1044708580,
+                "dob": 821046154,
+                "phone": "071-814-7793",
+                "cell": "081-689-2889",
+                "PPS": "8688016T",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/women/27.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/women/27.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/27.jpg"
+                }
+            }
+        },
+        {
+            "user": {
+                "gender": "male",
+                "name": {
+                    "title": "mr",
+                    "first": "jeremiah",
+                    "last": "bowman"
+                },
+                "location": {
+                    "street": "2538 dublin road",
+                    "city": "Longford",
+                    "state": "maine",
+                    "zip": 84039
+                },
+                "email": "jeremiah.bowman@example.com",
+                "username": "greensnake962",
+                "password": "bulldog1",
+                "salt": "qMRLlXJj",
+                "md5": "5b56936ddc5c911afd6d9f2745da07cf",
+                "sha1": "5dd793fd030a94570c4a2cc090471521b5539166",
+                "sha256": "6c8d5b2d8d5cb97f6f2f093e4e6a4cb9ffc5cff0060970dcde25cdf2acdf2fff",
+                "registered": 1162197509,
+                "dob": 1075139693,
+                "phone": "051-498-4846",
+                "cell": "081-589-5463",
+                "PPS": "6554649T",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/men/67.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/men/67.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/67.jpg"
+                }
+            }
+        },
+        {
+            "user": {
+                "gender": "female",
+                "name": {
+                    "title": "ms",
+                    "first": "caitlin",
+                    "last": "wade"
+                },
+                "location": {
+                    "street": "6388 galway road",
+                    "city": "Donabate",
+                    "state": "oregon",
+                    "zip": 29428
+                },
+                "email": "caitlin.wade@example.com",
+                "username": "purplefish587",
+                "password": "toni",
+                "salt": "rurCs5p8",
+                "md5": "7659df0d30d81cc7f38be5e029ad4732",
+                "sha1": "3a30c032cfe97b6fa9a8f36e06548ac62025bf62",
+                "sha256": "9cb71feccd21b6e1b95b520e3459403e2d8af02d874606da18401eceacccce80",
+                "registered": 1013365684,
+                "dob": 241987557,
+                "phone": "031-002-8698",
+                "cell": "081-924-4959",
+                "PPS": "8752087T",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/women/65.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/women/65.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/65.jpg"
+                }
+            }
+        },
+        {
+            "user": {
+                "gender": "male",
+                "name": {
+                    "title": "mr",
+                    "first": "anthony",
+                    "last": "davis"
+                },
+                "location": {
+                    "street": "4514 the green",
+                    "city": "Ballina",
+                    "state": "wyoming",
+                    "zip": 99870
+                },
+                "email": "anthony.davis@example.com",
+                "username": "crazylion287",
+                "password": "sheba",
+                "salt": "9C95rxfy",
+                "md5": "3cd615c36919572146248e6e97094f8b",
+                "sha1": "ae4f312dba86e92164f30243bb82488810954d96",
+                "sha256": "4a665619a69f7e29c6c6691c2792b6fee3bc5dca60224e346255e955bbc34397",
+                "registered": 1338230781,
+                "dob": 157572491,
+                "phone": "061-891-4773",
+                "cell": "081-288-5062",
+                "PPS": "3468140T",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/men/5.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/men/5.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+                }
+            }
+        },
+        {
+            "user": {
+                "gender": "female",
+                "name": {
+                    "title": "ms",
+                    "first": "amy",
+                    "last": "wade"
+                },
+                "location": {
+                    "street": "7757 mill lane",
+                    "city": "Kinsealy-Drinan",
+                    "state": "georgia",
+                    "zip": 79192
+                },
+                "email": "amy.wade@example.com",
+                "username": "whitemouse536",
+                "password": "mikey",
+                "salt": "D85bdk3U",
+                "md5": "0b547aecb4bee395afc953dad94a03f2",
+                "sha1": "662001e653937e03cd91525f3de009b5dce5c56a",
+                "sha256": "d984d30100bb90fb97098cf6d98b714930f88912d25d8b8d4546792e47f7ddf3",
+                "registered": 1268764830,
+                "dob": 1255953764,
+                "phone": "051-503-0615",
+                "cell": "081-763-0975",
+                "PPS": "9096522T",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/women/78.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/women/78.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/78.jpg"
+                }
+            }
+        },
+        {
+            "user": {
+                "gender": "male",
+                "name": {
+                    "title": "mr",
+                    "first": "chad",
+                    "last": "bowman"
+                },
+                "location": {
+                    "street": "9424 green lane",
+                    "city": "Carrick-on-Shannon",
+                    "state": "wisconsin",
+                    "zip": 29247
+                },
+                "email": "chad.bowman@example.com",
+                "username": "orangebird786",
+                "password": "2828",
+                "salt": "l7zoUCZ4",
+                "md5": "bb7dbcb6478ebb126b9af680d0912b85",
+                "sha1": "53185b92ef099c937e2f055b8a8354ee6c4cd3fc",
+                "sha256": "e80f8b926d59d49d02518252babef15b4153e9a6330e4f0d19ebddba2c19f3a8",
+                "registered": 972617159,
+                "dob": 1412883058,
+                "phone": "041-194-2406",
+                "cell": "081-057-3543",
+                "PPS": "1271709TA",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/men/93.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/men/93.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/93.jpg"
+                }
+            }
+        },
+        {
+            "user": {
+                "gender": "female",
+                "name": {
+                    "title": "miss",
+                    "first": "julie",
+                    "last": "miller"
+                },
+                "location": {
+                    "street": "7440 rochestown road",
+                    "city": "Wicklow",
+                    "state": "pennsylvania",
+                    "zip": 74981
+                },
+                "email": "julie.miller@example.com",
+                "username": "purpleleopard643",
+                "password": "chestnut",
+                "salt": "91d5bjQk",
+                "md5": "c33c3b992e6a4cb472a7c8bb2815ddc4",
+                "sha1": "18215b99d38ea9523425b821e26ac0b6abfa9ce9",
+                "sha256": "6820decc86a822311b3c519dfdc3052668e19069762ac5b05b76fb287dece1c0",
+                "registered": 1001515854,
+                "dob": 1252779596,
+                "phone": "061-241-7293",
+                "cell": "081-816-6809",
+                "PPS": "6912365T",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/women/20.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/women/20.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/20.jpg"
+                }
+            }
+        },
+        {
+            "user": {
+                "gender": "female",
+                "name": {
+                    "title": "ms",
+                    "first": "mary",
+                    "last": "soto"
+                },
+                "location": {
+                    "street": "8093 denny street",
+                    "city": "Cobh",
+                    "state": "wyoming",
+                    "zip": 79493
+                },
+                "email": "mary.soto@example.com",
+                "username": "purplelion813",
+                "password": "finder",
+                "salt": "PzWa5GLL",
+                "md5": "8fb0fef7a636bd263dfd7fcd4d2c7fa6",
+                "sha1": "bc0b1105a27415c9a5ff3037ab52b76e7488b88a",
+                "sha256": "37a6a14a031f4a3505960197b483dd0013829e75f772a8b9803e4afa7caedb53",
+                "registered": 1041758920,
+                "dob": 734899158,
+                "phone": "041-246-3568",
+                "cell": "081-049-2734",
+                "PPS": "0622559T",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/women/39.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/women/39.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/39.jpg"
+                }
+            }
+        }
+    ],
+    "nationality": "IE",
+    "seed": "83fe21ee7c983df105",
+    "version": "0.7"
+}

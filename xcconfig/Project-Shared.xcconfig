@@ -309,7 +309,7 @@ GCC_WARN_UNUSED_VARIABLE = YES
 // iOS 8.2 - Code will not load on systems earlier than 8.2. [8.2]
 // iOS 8.4 - Code will not load on systems earlier than 8.4. [8.4]
 
-IPHONEOS_DEPLOYMENT_TARGET = 9.0
+IPHONEOS_DEPLOYMENT_TARGET = 8.0
 
 
 // Base SDK

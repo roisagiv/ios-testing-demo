@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		50283A69BDB493C13A477095 /* libPods-Contacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E56F01F8D4547B6AF24DB10 /* libPods-Contacts.a */; };
+		5F61C1771BB1AAEC00E160F9 /* ContactSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F61C1761BB1AAEC00E160F9 /* ContactSpec.m */; };
+		5F61C1791BB1AB9000E160F9 /* randomuser.me.example.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F61C1781BB1AB9000E160F9 /* randomuser.me.example.json */; };
+		5F61C17D1BB1AD1500E160F9 /* JsonFixtures.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F61C17C1BB1AD1500E160F9 /* JsonFixtures.m */; };
+		5F61C17F1BB1AF3500E160F9 /* randomuser.me.user.example.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F61C17E1BB1AF3500E160F9 /* randomuser.me.user.example.json */; };
 		5F6BCE221BB172A700AA0531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BCE211BB172A700AA0531 /* main.m */; };
 		5F6BCE251BB172A700AA0531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BCE241BB172A700AA0531 /* AppDelegate.m */; };
 		5F6BCE281BB172A700AA0531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BCE271BB172A700AA0531 /* ViewController.m */; };
 		5F6BCE2B1BB172A700AA0531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BCE291BB172A700AA0531 /* Main.storyboard */; };
 		5F6BCE2D1BB172A700AA0531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BCE2C1BB172A700AA0531 /* Assets.xcassets */; };
 		5F6BCE301BB172A700AA0531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BCE2E1BB172A700AA0531 /* LaunchScreen.storyboard */; };
-		5F6BCE3B1BB172A700AA0531 /* ContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BCE3A1BB172A700AA0531 /* ContactsTests.m */; };
+		5F8C43831BB1802700BA58DA /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C43821BB1802700BA58DA /* Contact.m */; };
 		E01BE3936812467F8793B165 /* libPods-ContactsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C86FCE9045210A5DCD7FF4 /* libPods-ContactsTests.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +46,11 @@
 		5F60A9BF1BB1784A00D0FF43 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
 		5F60A9C01BB1784A00D0FF43 /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
 		5F60A9C11BB1784A00D0FF43 /* Project-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Shared.xcconfig"; sourceTree = "<group>"; };
+		5F61C1761BB1AAEC00E160F9 /* ContactSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactSpec.m; sourceTree = "<group>"; };
+		5F61C1781BB1AB9000E160F9 /* randomuser.me.example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = randomuser.me.example.json; sourceTree = "<group>"; };
+		5F61C17B1BB1AD1500E160F9 /* JsonFixtures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonFixtures.h; sourceTree = "<group>"; };
+		5F61C17C1BB1AD1500E160F9 /* JsonFixtures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonFixtures.m; sourceTree = "<group>"; };
+		5F61C17E1BB1AF3500E160F9 /* randomuser.me.user.example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = randomuser.me.user.example.json; sourceTree = "<group>"; };
 		5F6BCE1D1BB172A700AA0531 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6BCE211BB172A700AA0531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F6BCE231BB172A700AA0531 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,8 +62,9 @@
 		5F6BCE2F1BB172A700AA0531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F6BCE311BB172A700AA0531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F6BCE361BB172A700AA0531 /* ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F6BCE3A1BB172A700AA0531 /* ContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsTests.m; sourceTree = "<group>"; };
 		5F6BCE3C1BB172A700AA0531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8C43811BB1802700BA58DA /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		5F8C43821BB1802700BA58DA /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		C682A8B3473C1D8EBF613CDD /* Pods-ContactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsTests/Pods-ContactsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC352935097D3094A89E1182 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +116,25 @@
 			path = xcconfig;
 			sourceTree = "<group>";
 		};
+		5F61C1751BB1AAC800E160F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F61C1761BB1AAEC00E160F9 /* ContactSpec.m */,
+				5F61C1781BB1AB9000E160F9 /* randomuser.me.example.json */,
+				5F61C17E1BB1AF3500E160F9 /* randomuser.me.user.example.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F61C17A1BB1ACE800E160F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F61C17B1BB1AD1500E160F9 /* JsonFixtures.h */,
+				5F61C17C1BB1AD1500E160F9 /* JsonFixtures.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5F6BCE141BB172A700AA0531 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +159,7 @@
 		5F6BCE1F1BB172A700AA0531 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				5F8C43801BB17FE500BA58DA /* Models */,
 				5F6BCE201BB172A700AA0531 /* Supporting Files */,
 				5F6BCE231BB172A700AA0531 /* AppDelegate.h */,
 				5F6BCE241BB172A700AA0531 /* AppDelegate.m */,
@@ -154,10 +184,20 @@
 		5F6BCE391BB172A700AA0531 /* ContactsTests */ = {
 			isa = PBXGroup;
 			children = (
-				5F6BCE3A1BB172A700AA0531 /* ContactsTests.m */,
+				5F61C1751BB1AAC800E160F9 /* Models */,
+				5F61C17A1BB1ACE800E160F9 /* Supporting Files */,
 				5F6BCE3C1BB172A700AA0531 /* Info.plist */,
 			);
 			path = ContactsTests;
+			sourceTree = "<group>";
+		};
+		5F8C43801BB17FE500BA58DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F8C43811BB1802700BA58DA /* Contact.h */,
+				5F8C43821BB1802700BA58DA /* Contact.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		EC97E6CE6BA6D61A1F9D1DE8 /* Frameworks */ = {
@@ -263,6 +303,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F61C17F1BB1AF3500E160F9 /* randomuser.me.user.example.json in Resources */,
+				5F61C1791BB1AB9000E160F9 /* randomuser.me.example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F8C43831BB1802700BA58DA /* Contact.m in Sources */,
 				5F6BCE281BB172A700AA0531 /* ViewController.m in Sources */,
 				5F6BCE251BB172A700AA0531 /* AppDelegate.m in Sources */,
 				5F6BCE221BB172A700AA0531 /* main.m in Sources */,
@@ -346,7 +389,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6BCE3B1BB172A700AA0531 /* ContactsTests.m in Sources */,
+				5F61C1771BB1AAEC00E160F9 /* ContactSpec.m in Sources */,
+				5F61C17D1BB1AD1500E160F9 /* JsonFixtures.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -457,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
