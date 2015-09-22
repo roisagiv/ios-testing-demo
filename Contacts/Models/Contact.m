@@ -11,7 +11,38 @@
 @implementation Contact
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
-  return @{};
+  return [NSDictionary mtl_identityPropertyMapWithModel:self];
+}
+
++ (NSValueTransformer *)nameJSONTransformer {
+  return [MTLJSONAdapter dictionaryTransformerWithModelClass:ContactName.class];
+}
+
++ (NSValueTransformer *)pictureJSONTransformer {
+  return
+      [MTLJSONAdapter dictionaryTransformerWithModelClass:ContactPicture.class];
+}
+
+@end
+
+/*!
+ *
+ */
+@implementation ContactName
+
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+  return [NSDictionary mtl_identityPropertyMapWithModel:self];
+}
+
+@end
+
+/*!
+ *
+ */
+@implementation ContactPicture
+
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+  return [NSDictionary mtl_identityPropertyMapWithModel:self];
 }
 
 @end

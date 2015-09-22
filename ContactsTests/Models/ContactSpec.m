@@ -30,8 +30,8 @@ SpecBegin(Contact)
 
         expect(contact.name.title).to.equal(@"ms");
         expect(contact.name.first).to.equal(@"lola");
-
         expect(contact.name.last).to.equal(@"davis");
+
         expect(contact.email).to.equal(@"lola.davis@example.com");
 
         expect(contact.picture.large)
@@ -39,7 +39,8 @@ SpecBegin(Contact)
         expect(contact.picture.medium)
             .to.equal(@"https://randomuser.me/api/portraits/med/women/37.jpg");
         expect(contact.picture.thumbnail)
-            .to.equal(@"https://randomuser.me/api/portraits/thumb/women37.jpg");
+            .to.equal(
+                @"https://randomuser.me/api/portraits/thumb/women/37.jpg");
       });
 
     });
