@@ -9,5 +9,6 @@ end
 target 'ContactsTests' do
   pod 'Specta'
   pod 'Expecta'
+  pod 'OHHTTPStubs'
 end
 
