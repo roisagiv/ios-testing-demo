@@ -22,9 +22,7 @@ SpecBegin(Contact)
             JSONFromLocalFileWithName:@"randomuser.me.user.example"];
 
         NSError* error;
-        Contact* contact = [MTLJSONAdapter modelOfClass:Contact.class
-                                     fromJSONDictionary:json
-                                                  error:&error];
+        Contact* contact = [Contact contactFromJSONDictionary:json];
 
         expect(error).to.beNil;
 

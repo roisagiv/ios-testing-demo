@@ -18,6 +18,8 @@
 @property(strong, nonatomic) NSString* email;
 @property(strong, nonatomic) ContactPicture* picture;
 
++ (instancetype)contactFromJSONDictionary:(NSDictionary*)json;
+
 @end
 
 @interface ContactName : MTLModel<MTLJSONSerializing>

@@ -10,6 +10,13 @@
 
 @implementation Contact
 
++ (instancetype)contactFromJSONDictionary:(NSDictionary *)json {
+  return [MTLJSONAdapter modelOfClass:[self class]
+                   fromJSONDictionary:json
+                                error:nil];
+}
+
+#pragma mark - Mantle
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
   return [NSDictionary mtl_identityPropertyMapWithModel:self];
 }
