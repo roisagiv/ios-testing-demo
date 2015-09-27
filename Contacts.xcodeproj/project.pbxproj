@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		50283A69BDB493C13A477095 /* libPods-Contacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E56F01F8D4547B6AF24DB10 /* libPods-Contacts.a */; };
+		5F311DD81BB6DE3800A40A98 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F311DD71BB6DE3800A40A98 /* ContactTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		5F311DDB1BB6DE6800A40A98 /* ContactTableViewCellSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F311DDA1BB6DE6800A40A98 /* ContactTableViewCellSpec.m */; settings = {ASSET_TAGS = (); }; };
 		5F3E38E81BB2FD3E00AB80C4 /* RandomUserAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E38E71BB2FD3E00AB80C4 /* RandomUserAPI.m */; settings = {ASSET_TAGS = (); }; };
 		5F3E38EA1BB2FD4F00AB80C4 /* RandomUserAPISpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E38E91BB2FD4F00AB80C4 /* RandomUserAPISpec.m */; settings = {ASSET_TAGS = (); }; };
 		5F3E38ED1BB3017600AB80C4 /* OHHTTPStubs+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E38EC1BB3017600AB80C4 /* OHHTTPStubs+Helper.m */; settings = {ASSET_TAGS = (); }; };
@@ -40,6 +42,9 @@
 		31C86FCE9045210A5DCD7FF4 /* libPods-ContactsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51742D7721564FB5486AC145 /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
 		5E56F01F8D4547B6AF24DB10 /* libPods-Contacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Contacts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F311DD61BB6DE3800A40A98 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		5F311DD71BB6DE3800A40A98 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		5F311DDA1BB6DE6800A40A98 /* ContactTableViewCellSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCellSpec.m; sourceTree = "<group>"; };
 		5F3E38E61BB2FD3E00AB80C4 /* RandomUserAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomUserAPI.h; sourceTree = "<group>"; };
 		5F3E38E71BB2FD3E00AB80C4 /* RandomUserAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomUserAPI.m; sourceTree = "<group>"; };
 		5F3E38E91BB2FD4F00AB80C4 /* RandomUserAPISpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomUserAPISpec.m; sourceTree = "<group>"; };
@@ -106,6 +111,23 @@
 				254E0AEE3DE6ADC5A77DDE84 /* Pods-ContactsTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F311DD51BB6DE1900A40A98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F311DD61BB6DE3800A40A98 /* ContactTableViewCell.h */,
+				5F311DD71BB6DE3800A40A98 /* ContactTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F311DD91BB6DE5300A40A98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F311DDA1BB6DE6800A40A98 /* ContactTableViewCellSpec.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5F3E38E41BB2FD0900AB80C4 /* API */ = {
@@ -189,6 +211,7 @@
 				5F3E38E41BB2FD0900AB80C4 /* API */,
 				5F8C43801BB17FE500BA58DA /* Models */,
 				5F6BCE201BB172A700AA0531 /* Supporting Files */,
+				5F311DD51BB6DE1900A40A98 /* Views */,
 				5F6BCE231BB172A700AA0531 /* AppDelegate.h */,
 				5F6BCE241BB172A700AA0531 /* AppDelegate.m */,
 				5F6BCE2C1BB172A700AA0531 /* Assets.xcassets */,
@@ -215,6 +238,7 @@
 				5F3E38E51BB2FD1300AB80C4 /* API */,
 				5F61C1751BB1AAC800E160F9 /* Models */,
 				5F61C17A1BB1ACE800E160F9 /* Supporting Files */,
+				5F311DD91BB6DE5300A40A98 /* Views */,
 				5F6BCE3C1BB172A700AA0531 /* Info.plist */,
 			);
 			path = ContactsTests;
@@ -409,6 +433,7 @@
 			files = (
 				5F8C43831BB1802700BA58DA /* Contact.m in Sources */,
 				5F6BCE281BB172A700AA0531 /* ViewController.m in Sources */,
+				5F311DD81BB6DE3800A40A98 /* ContactTableViewCell.m in Sources */,
 				5F6BCE251BB172A700AA0531 /* AppDelegate.m in Sources */,
 				5F6BCE221BB172A700AA0531 /* main.m in Sources */,
 				5F3E38E81BB2FD3E00AB80C4 /* RandomUserAPI.m in Sources */,
@@ -419,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F311DDB1BB6DE6800A40A98 /* ContactTableViewCellSpec.m in Sources */,
 				5F61C1771BB1AAEC00E160F9 /* ContactSpec.m in Sources */,
 				5F3E38EA1BB2FD4F00AB80C4 /* RandomUserAPISpec.m in Sources */,
 				5F3E38ED1BB3017600AB80C4 /* OHHTTPStubs+Helper.m in Sources */,
