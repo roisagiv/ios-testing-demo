@@ -19,16 +19,26 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-  return nil;
+  ContactTableViewCell *cell = [tableView
+      dequeueReusableCellWithIdentifier:NSStringFromClass(
+                                            ContactTableViewCell.class)
+                           forIndexPath:indexPath];
+
+  Contact *contact = [self.contacts objectAtIndex:indexPath.row];
+  [cell configureWithContact:contact];
+
+  return cell;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section {
-  return 0;
+  return self.contacts.count;
 }
 
 - (void)tableView:(UITableView *)tableView
     configureWithContacts:(NSArray<Contact *> *)contacts {
+  self.contacts = contacts;
+  [tableView reloadData];
 }
 
 @end
