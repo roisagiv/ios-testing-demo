@@ -12,6 +12,13 @@
 @implementation ContactTableViewCell
 
 - (void)configureWithContact:(Contact *)contact {
+  self.contactNameLabel.text = [NSString
+      stringWithFormat:@"%@ %@", contact.name.first, contact.name.last];
+
+  self.contactEmailLabel.text = contact.email;
+
+  [self.contactImageView
+      setImageWithURL:[NSURL URLWithString:contact.picture.thumbnail]];
 }
 
 @end

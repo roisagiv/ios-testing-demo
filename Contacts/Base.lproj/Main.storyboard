@@ -66,6 +66,11 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="YiP-Go-GMM" secondAttribute="trailing" constant="6" id="waS-lq-c2W"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="contactEmailLabel" destination="YiP-Go-GMM" id="2JV-qy-UaO"/>
+                                            <outlet property="contactImageView" destination="IHM-Zr-DB1" id="qAJ-Lf-2C9"/>
+                                            <outlet property="contactNameLabel" destination="rmq-yV-faR" id="VwU-xr-P4f"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
