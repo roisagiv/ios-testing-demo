@@ -10,5 +10,7 @@ target 'ContactsTests' do
   pod 'Specta'
   pod 'Expecta'
   pod 'OHHTTPStubs'
+  pod 'Foundry'
+  pod 'OCMock'
 end
 

@@ -1,0 +1,1 @@
+PODS_CONTACTSTESTS_GIZOU_OTHER_LDFLAGS = -framework "Foundation"
