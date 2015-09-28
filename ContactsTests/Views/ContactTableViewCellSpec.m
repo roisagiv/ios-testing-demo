@@ -12,15 +12,6 @@
 #import "ViewController.h"
 #import <objc/runtime.h>
 
-@interface ViewController (ContactTableViewCell)
-@end
-
-@implementation ViewController (ContactTableViewCell)
-- (void)viewDidLoad {
-  // do nothing!
-}
-@end
-
 /*!
  *  Override AFNetworking/UIKit+AFNetworking.h
  */

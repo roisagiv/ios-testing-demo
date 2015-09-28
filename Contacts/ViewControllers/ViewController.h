@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RandomUserAPI.h"
+#import "ContactsTableDataSource.h"
 
 @interface ViewController : UIViewController
 
 @property(weak, nonatomic) IBOutlet UITableView* tableView;
+
++ (instancetype)viewControllerWithRandomUserAPI:(RandomUserAPI*)randomUserAPI
+                     andContactsTableDataSource:
+                         (ContactsTableDataSource*)dataSource;
 
 @end

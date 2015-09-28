@@ -26,6 +26,7 @@
 		5F81F8791BB81EF300C1747B /* ContactsTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81F8781BB81EF300C1747B /* ContactsTableDataSource.m */; settings = {ASSET_TAGS = (); }; };
 		5F8C43831BB1802700BA58DA /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C43821BB1802700BA58DA /* Contact.m */; };
 		5F9033CD1BB8222B00C134D3 /* ContactsTableDataSourceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9033CC1BB8222B00C134D3 /* ContactsTableDataSourceSpec.m */; settings = {ASSET_TAGS = (); }; };
+		5FB1964C1BB832D40024CE29 /* ViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1964B1BB832D40024CE29 /* ViewControllerSpec.m */; settings = {ASSET_TAGS = (); }; };
 		E01BE3936812467F8793B165 /* libPods-ContactsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C86FCE9045210A5DCD7FF4 /* libPods-ContactsTests.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,7 @@
 		5F8C43811BB1802700BA58DA /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		5F8C43821BB1802700BA58DA /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		5F9033CC1BB8222B00C134D3 /* ContactsTableDataSourceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableDataSourceSpec.m; sourceTree = "<group>"; };
+		5FB1964B1BB832D40024CE29 /* ViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSpec.m; sourceTree = "<group>"; };
 		C682A8B3473C1D8EBF613CDD /* Pods-ContactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsTests/Pods-ContactsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC352935097D3094A89E1182 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -219,6 +221,7 @@
 				5F3E38E41BB2FD0900AB80C4 /* API */,
 				5F8C43801BB17FE500BA58DA /* Models */,
 				5F6BCE201BB172A700AA0531 /* Supporting Files */,
+				5FB196491BB832950024CE29 /* ViewControllers */,
 				5F311DD51BB6DE1900A40A98 /* Views */,
 				5F6BCE231BB172A700AA0531 /* AppDelegate.h */,
 				5F6BCE241BB172A700AA0531 /* AppDelegate.m */,
@@ -226,8 +229,6 @@
 				5F6BCE311BB172A700AA0531 /* Info.plist */,
 				5F6BCE2E1BB172A700AA0531 /* LaunchScreen.storyboard */,
 				5F6BCE291BB172A700AA0531 /* Main.storyboard */,
-				5F6BCE261BB172A700AA0531 /* ViewController.h */,
-				5F6BCE271BB172A700AA0531 /* ViewController.m */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -246,6 +247,7 @@
 				5F3E38E51BB2FD1300AB80C4 /* API */,
 				5F61C1751BB1AAC800E160F9 /* Models */,
 				5F61C17A1BB1ACE800E160F9 /* Supporting Files */,
+				5FB1964A1BB832B80024CE29 /* ViewControllers */,
 				5F311DD91BB6DE5300A40A98 /* Views */,
 				5F6BCE3C1BB172A700AA0531 /* Info.plist */,
 			);
@@ -259,6 +261,23 @@
 				5F8C43821BB1802700BA58DA /* Contact.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5FB196491BB832950024CE29 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F6BCE261BB172A700AA0531 /* ViewController.h */,
+				5F6BCE271BB172A700AA0531 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5FB1964A1BB832B80024CE29 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FB1964B1BB832D40024CE29 /* ViewControllerSpec.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		EC97E6CE6BA6D61A1F9D1DE8 /* Frameworks */ = {
@@ -455,6 +474,7 @@
 			files = (
 				5F311DDB1BB6DE6800A40A98 /* ContactTableViewCellSpec.m in Sources */,
 				5F61C1771BB1AAEC00E160F9 /* ContactSpec.m in Sources */,
+				5FB1964C1BB832D40024CE29 /* ViewControllerSpec.m in Sources */,
 				5F3E38EA1BB2FD4F00AB80C4 /* RandomUserAPISpec.m in Sources */,
 				5F9033CD1BB8222B00C134D3 /* ContactsTableDataSourceSpec.m in Sources */,
 				5F3E38ED1BB3017600AB80C4 /* OHHTTPStubs+Helper.m in Sources */,
