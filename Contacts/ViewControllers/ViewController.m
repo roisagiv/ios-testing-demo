@@ -20,10 +20,30 @@
 + (instancetype)viewControllerWithRandomUserAPI:(RandomUserAPI *)randomUserAPI
                      andContactsTableDataSource:
                          (ContactsTableDataSource *)dataSource {
-  return nil;
+  UIStoryboard *mainStoryboard =
+      [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+
+  ViewController *viewController = [mainStoryboard
+      instantiateViewControllerWithIdentifier:NSStringFromClass(
+                                                  [ViewController class])];
+
+  if (viewController) {
+    viewController.randomUserApi = randomUserAPI;
+    viewController.dataSource = dataSource;
+  }
+
+  return viewController;
 }
 
 - (void)viewDidLoad {
+  self.tableView.dataSource = self.dataSource;
+
+  [self.randomUserApi getUsers:^(NSArray<Contact *> *users) {
+
+    [self.dataSource tableView:self.tableView configureWithContacts:users];
+
+  } failure:^(NSError *error){
+  }];
 }
 
 @end

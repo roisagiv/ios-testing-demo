@@ -20,6 +20,22 @@
 - (BOOL)application:(UIApplication *)application
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+
+  if (NSClassFromString(@"XCTest")) {
+    // we are under test, do nothing
+    return YES;
+  }
+
+  self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+
+  ViewController *vc = [ViewController
+      viewControllerWithRandomUserAPI:[[RandomUserAPI alloc] init]
+           andContactsTableDataSource:[[ContactsTableDataSource alloc] init]];
+
+  self.window.rootViewController = vc;
+
+  [self.window makeKeyAndVisible];
+
   return YES;
 }
 
